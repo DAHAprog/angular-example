@@ -1,0 +1,35 @@
+.main{
+    width: min-content;
+    margin: 0 auto;
+}
+h2{
+    text-align: center;
+}
+select{
+    width: 166px;
+}
+a.active{
+    font-style: italic;
+    font-weight: bolder;
+}
+a:hover{
+    font-weight: bolder;
+    background-color: rgb(235, 235, 235);
+}
+.output{
+    width: 180px;
+    margin: 0 auto; 
+    color: rgb(6, 6, 66);
+    font-weight: bolder;
+    font-size: 20px;
+    padding-top: 10px;
+}
+button{
+    border: none;
+    padding: 5px;
+    margin: 0 auto;
+    display: block;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+}

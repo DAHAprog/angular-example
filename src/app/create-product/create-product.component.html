@@ -1,0 +1,36 @@
+<div class="main">
+    <h2>Product creating</h2>
+    <table>
+        <tr>
+            <td>ID</td>
+            <td>
+                <input type="text" [(ngModel)]="id">
+                </td> 
+            </tr>
+        <tr>
+            <td>Name</td>
+            <td>
+                <input type="text" [(ngModel)]="name">
+            </td>
+        </tr>
+        <tr>
+            <td>Price</td> 
+            <td>
+                <input type="text" [(ngModel)]="price">
+            </td>
+        </tr>
+        <tr>
+            <td>Category</td>
+            <td>
+                <select [(ngModel)]="category">
+                    <option value="unchosen" disabled>unchosen</option>
+                    <option value="category 1">category 1</option>
+                    <option value="category 2">category 2</option>
+                    <option value="category 3">category 3</option>
+                </select> 
+            </td> 
+        </tr>    
+    </table>
+    <button (click)="create()">CREATE</button>
+    <div class="output"></div>
+</div>

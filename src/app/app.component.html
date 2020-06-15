@@ -1,0 +1,12 @@
+<!--<h1>My Site</h1>-->
+<div class="main">
+  <div class="navigation">
+    <h2>navigation</h2>
+    <a routerLink="/home/" class="active" (click)="activate(0)">HOME</a>
+    <a routerLink="/products/" (click)="activate(1)">Products</a>
+    <a routerLink="/admin/" (click)="activate(2)">Admin</a>
+  </div>
+  <div class="body">
+    <router-outlet></router-outlet>
+  </div>
+</div>

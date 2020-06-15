@@ -1,0 +1,18 @@
+h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+    padding: 5px;
+    background-color: rgb(172, 172, 172);
+    color: black;
+}
+a.active{
+    font-weight: bolder;
+}
+a:hover{
+    font-weight: bolder;
+    font-style: italic;
+    background-color: rgb(235, 235, 235);
+}
